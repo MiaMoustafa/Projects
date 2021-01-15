@@ -1,0 +1,83 @@
+#main {
+    font-family: source-sans, sans-serif;
+    padding: 80px 50px;
+    
+}
+
+h3 {
+    line-height: 1.2em;
+    text-align:center;
+      color: grey;
+      margin-bottom:2em;
+}
+#img-caption {
+    margin:20px auto;
+     color:black;
+     font-size: 2em;
+     letter-spacing: 2px;
+}
+
+.paul {
+    font-size: 2em;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+#title {
+    text-align: center;
+    color: orange;
+    font-size: 2.5em;
+}
+
+#img {
+    max-width: 90%;
+    margin: 10px 10px;
+}
+
+#tribute-info p {
+    line-height: 1.5em;
+    text-align: left;
+}
+
+#tribute-link {
+    text-align: center;
+    color: orange;
+    text-decoration: none;
+    font-size: 14px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 15px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    flex: 24.5%;
+    max-width: 24.5%;
+    padding: 0 20px;
+    
+}
+
+.column img {
+  margin-top: 20px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 90%;
+        max-width: 100%;
+    }
+}
